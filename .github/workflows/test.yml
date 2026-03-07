@@ -1,0 +1,12 @@
+---
+name: Faraz
+on:
+  push:
+    branches:
+      - main
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: My name is Fatima
+        run: echo "Hello Fatima"
